@@ -1,0 +1,136 @@
+
+@host=http://localhost/
+@api=api/auth
+@jwt_tokken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJCYWNrZW5kTWFuYWdlciIsIm5hbWUiOiJEb21pbmlrIEhhaWQiLCJpYXQiOjY5NzQ1NzI5MzR9.MVumCHzp8CA97Qpz-YX_Vq55TilGGJ28GcLoU0mU0CA
+@search_user_id=C5804BF7-1C78-101A-9865-26842F988BAE
+//XSS TEST
+@search_user_mail=user@example.de
+@new_user_email=<div>user@example.de</div>
+@new_user_phoneNumber=%2B442071838750
+@new_user_emailVerified=0
+//XSS TEST
+@new_user_displayName=<script>User Example</script>
+@new_user_photoURL=http://localhost/photo.jpg
+@new_user_disabled=1
+@new_user_customClaims=0
+
+
+GET {{host}}{{api}} HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API STATUS
+###
+
+//GET ALL USERS
+GET {{host}}{{api}}/user HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API ALL USERS
+###
+
+
+//GET USER ID /URL/X-FORM/REST
+GET {{host}}{{api}}/user HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+id={{search_user_id}}
+//API FIND ONE BY ID
+###
+GET {{host}}{{api}}/user/{{search_user_id}} HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API FIND ONE BY EMAIL
+###
+GET {{host}}{{api}}/user/?id={{search_user_id}} HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+//API FIND ONE BY EMAIL
+###
+
+
+//GET USER SEARCH /URL/X-FORM/REST
+GET {{host}}{{api}}/user/search/{{search_user_mail}} HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API FIND ONE BY ID
+###
+GET {{host}}{{api}}/user/search/?email={{search_user_mail}} HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API FIND ONE BY ID
+###
+GET {{host}}{{api}}/user/search HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+email={{search_user_mail}}
+//API FIND ONE BY ID
+###
+
+
+//POST CREATE USER /URL/X-FORM/REST
+POST {{host}}{{api}}/user/?email={{new_user_email}}&phoneNumber={{new_user_phoneNumber}}&emailVerified={{new_user_emailVerified}}&displayName={{new_user_displayName}}&photoURL={{new_user_photoURL}}&disabled={{new_user_disabled}}&customClaims={{new_user_customClaims}} HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+
+//API CREATE USER
+###
+POST {{host}}{{api}}/user/ HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+email={{new_user_email}}
+&phoneNumber={{new_user_phoneNumber}}
+&emailVerified={{new_user_emailVerified}}
+&displayName={{new_user_displayName}}
+&photoURL={{new_user_photoURL}}
+&disabled={{new_user_disabled}}
+&customClaims={{new_user_customClaims}}
+
+//API CREATE USER
+###
+
+//DELETE /URL/X-FORM/REST
+DELETE  {{host}}{{api}}/user HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+id=<div>gS1lS9yFXbUzL8XcEqLwv1nGgNe2</div>
+//API DELETE USER BY ID
+###
+DELETE  {{host}}{{api}}/user/ZeJpjz4IVseFBL4nrS3TrTj6OAm2 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+//API DELETE USER BY ID
+###
+DELETE {{host}}{{api}}/user/?id=50HN6VJlPKMMq9X2oqtsHfDITPG3 HTTP/1.1
+content-type: application/json
+Authorization: Bearer {{jwt_tokken}}
+
+//API CREATE USER
+###
+
+//PATCH  /URL/X-FORM/REST
+PATCH  {{host}}{{api}}/user/?id=Xj9Ht7Qv5GapGGXSjhOGAPWNmZq1&email={{new_user_email}}&phoneNumber={{new_user_phoneNumber}}&emailVerified={{new_user_emailVerified}}&displayName={{new_user_displayName}}&photoURL={{new_user_photoURL}}&disabled={{new_user_disabled}}&customClaims={{new_user_customClaims}} HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+//API UPDATE USER
+###
+
+PATCH  {{host}}{{api}}/user HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer {{jwt_tokken}}
+
+id=Xj9Ht7Qv5GapGGXSjhOGAPWNmZq1
+&email={{new_user_email}}
+&phoneNumber={{new_user_phoneNumber}}
+&emailVerified={{new_user_emailVerified}}
+&displayName={{new_user_displayName}}
+&photoURL={{new_user_photoURL}}
+&disabled={{new_user_disabled}}
+&customClaims={{new_user_customClaims}}
+
+//API UPDATE USER
+###

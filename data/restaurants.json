@@ -1,0 +1,204 @@
+{
+  "restaurants": [
+    {
+      "id": "4Zh2DxFItLoBYQiNeMhP",
+      "category": "Indian",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_12.png",
+      "price": 3,
+      "name": "Prime Eatin'",
+      "numRatings": 0,
+      "city": "Albuquerque",
+      "avgRating": 0
+    },
+    {
+      "id": "AlkQ6sUBdiyMzrBZcggW",
+      "city": "Indianapolis",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_13.png",
+      "numRatings": 0,
+      "price": 3,
+      "name": "Drive Thru Eatin'",
+      "avgRating": 0,
+      "category": "Deli"
+    },
+    {
+      "id": "D6pi6y7vtcMvcUPS3duR",
+      "numRatings": 0,
+      "price": 2,
+      "name": "Spot Fire",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_19.png",
+      "avgRating": 0,
+      "category": "Coffee",
+      "city": "Jacksonville"
+    },
+    {
+      "id": "F2RECg0mwoeZ1oNJdtlW",
+      "avgRating": 2,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_17.png",
+      "city": "Memphis",
+      "numRatings": 5,
+      "name": "Bar Bar",
+      "category": "Burgers",
+      "price": 2
+    },
+    {
+      "id": "HDeZ714n71idTcK4UcyP",
+      "category": "Mexican",
+      "name": "Best Best",
+      "numRatings": 0,
+      "city": "Albuquerque",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_17.png",
+      "avgRating": 0,
+      "price": 2
+    },
+    {
+      "id": "JcjFogHCjQEv4wjyPWfn",
+      "price": 4,
+      "name": "Fire Best",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_10.png",
+      "category": "Mediterranean",
+      "numRatings": 0,
+      "avgRating": 0,
+      "city": "Louisville"
+    },
+    {
+      "id": "KIxWTiWLyhOZovdeAteR",
+      "category": "Indian",
+      "price": 4,
+      "city": "Oakland",
+      "numRatings": 0,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_13.png",
+      "name": "Best Bar",
+      "avgRating": 0
+    },
+    {
+      "id": "LbBzj2j9AVUwHHgSI7Pn",
+      "price": 1,
+      "city": "Arlington",
+      "name": "Grill Bar",
+      "numRatings": 0,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_5.png",
+      "category": "Ramen",
+      "avgRating": 0
+    },
+    {
+      "id": "NXKfGTZU2Lj8ENpd8PEi",
+      "numRatings": 0,
+      "price": 4,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_4.png",
+      "name": "Best Drive Thru",
+      "avgRating": 0,
+      "category": "Mediterranean",
+      "city": "Baltimore"
+    },
+    {
+      "id": "NgtcJ0Qt2I4DqskMRhRu",
+      "city": "Memphis",
+      "name": "Place Bar",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_5.png",
+      "avgRating": 0,
+      "numRatings": 0,
+      "price": 1,
+      "category": "Mexican"
+    },
+    {
+      "id": "Tuo1HTPyVC6Ex0QzRg6M",
+      "category": "Pizza",
+      "price": 4,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_16.png",
+      "name": "Eatin' Place",
+      "avgRating": 0,
+      "city": "Fort Worth",
+      "numRatings": 0
+    },
+    {
+      "id": "WX6WqCusNBOM7iSxqHwq",
+      "city": "Memphis",
+      "avgRating": 0,
+      "category": "Mexican",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_21.png",
+      "price": 2,
+      "name": "Eatin' Best",
+      "numRatings": 0
+    },
+    {
+      "id": "XhIOIGVG49v2aRt9WqD2",
+      "numRatings": 0,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_11.png",
+      "category": "Italian",
+      "avgRating": 0,
+      "price": 2,
+      "name": "Eatin' Eatin'",
+      "city": "Miami"
+    },
+    {
+      "id": "gfwhtGqZUlkIeKGLFbpw",
+      "price": 1,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_7.png",
+      "avgRating": 0,
+      "numRatings": 0,
+      "name": "Prime Fire",
+      "category": "Mexican",
+      "city": "Memphis"
+    },
+    {
+      "id": "gh3FhKuVrQVtarg0WIa8",
+      "numRatings": 0,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_19.png",
+      "city": "Charlotte",
+      "price": 3,
+      "avgRating": 0,
+      "category": "Coffee",
+      "name": "Bar Bar"
+    },
+    {
+      "id": "ipZWLzHfu13iWZoO20b0",
+      "name": "Drive Thru Eatin'",
+      "city": "Los Angeles",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_1.png",
+      "price": 2,
+      "numRatings": 0,
+      "category": "Italian",
+      "avgRating": 0
+    },
+    {
+      "id": "k4BpKXbKRDUgWwZYsWgm",
+      "avgRating": 0,
+      "city": "Milwaukee",
+      "category": "Coffee",
+      "numRatings": 0,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_21.png",
+      "name": "Spot Drive Thru",
+      "price": 4
+    },
+    {
+      "id": "mWXAhRx2Ww1FDqWFsiZ4",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_12.png",
+      "name": "Spot Drive Thru",
+      "avgRating": 0,
+      "category": "Pizza",
+      "price": 3,
+      "city": "Albuquerque",
+      "numRatings": 0
+    },
+    {
+      "id": "nPKHj54gFgkFGfqKw8AZ",
+      "price": 2,
+      "category": "Deli",
+      "numRatings": 0,
+      "city": "Miami",
+      "name": "Grill Drive Thru",
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_21.png",
+      "avgRating": 0
+    },
+    {
+      "id": "ssrOxwsSjijshPR5PyRn",
+      "price": 2,
+      "photo": "https://storage.googleapis.com/firestorequickstarts.appspot.com/food_1.png",
+      "avgRating": 2.2,
+      "category": "Indian",
+      "name": "Fire Place",
+      "numRatings": 5,
+      "city": "Kansas City"
+    }
+  ]
+}
