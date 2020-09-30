@@ -42,3 +42,5 @@ You need a Firebase Account to use this, get one for free here https://console.f
 Edit the firebase-service.json https://firebase.google.com/docs/admin/setup#initialize-sdk.
 Add your 'https://<DATABASE_NAME>.firebaseio.com' to .env file.
 ```
+
+- ./src/config/firebase-service.json
