@@ -1,7 +1,7 @@
 
 @host=http://localhost/
 @api=api/auth
-@jwt_tokken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJCYWNrZW5kTWFuYWdlciIsIm5hbWUiOiJEb21pbmlrIEhhaWQiLCJpYXQiOjY5NzQ1NzI5MzR9.MVumCHzp8CA97Qpz-YX_Vq55TilGGJ28GcLoU0mU0CA
+@jwt_tokken=secret
 @search_res_name=Drive Thru Eatin'
 @search_res_id=4Zh2DxFItLoBYQiNeMhP
 @search_res_array=name,DriveThur
