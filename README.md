@@ -26,7 +26,7 @@ This module is developed to extend our base server. It can be easily installed w
 > 
 > npm run data //add the sample data to firebase
 > 
-> npm run plguin p=https://github.com/dominikhaid/node-module-firebase.git
+> npm run plugin p=https://github.com/dominikhaid/node-module-firebase.git
 > 
 > npm run dev
 > 
